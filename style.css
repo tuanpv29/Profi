@@ -7,3 +7,131 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.navbar-expand-sm
+.navbar-nav
+.nav-item:first-child
+a {
+  padding-left: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding: 1.25rem 1rem;
+  color: #212529;
+  font-weight: bold;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+  color: #28a745;
+}
+
+.btn {
+  letter-spacing: .125rem;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: rgba(255,255,255,.9)!important;;
+  border-radius: 0;
+  border: none;
+}
+
+.pages {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.pages:hover {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("./Images/image-45.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-1 {
+  /* The image used */
+  background-image: url("./Images/image-46.jpg");
+
+  /* Set a specific height */
+  min-height: 60vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.padding-footer {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+footer a {
+  color: #212529;
+  font-weight: bold;
+  line-height: 1;
+}
+
+footer a:hover {
+  color: #28a745;
+}
+
+a.brand-footer {
+  font-size: 1.875rem;
+  text-decoration: none;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-pinterest {
+  font-size: 1.875rem;
+  margin-right: .5rem;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: rgb(29, 161, 242);
+}
+
+.fa-pinterest {
+  color: #e60023;
+}
+
+#back-icon {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  background-color: #f4f4f4;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+#back-icon:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #A9A9A9;
+}
