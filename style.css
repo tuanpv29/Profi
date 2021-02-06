@@ -11,8 +11,22 @@ body {
 .navbar-expand-sm
 .navbar-nav
 .nav-item:first-child
-a {
+.nav-link {
   padding-left: 0;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  border: none;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: rgba(255, 255, 0255, 0.3);
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
@@ -47,6 +61,27 @@ a {
 
 .card-img-top {
   border-radius: 0;
+}
+
+.more-page h4 {
+  color: #A9A9A9;
+}
+
+.more-page a {
+  color: #28a745;
+  text-decoration: underline;
+}
+
+.more-page a:hover {
+  text-decoration: underline;
+}
+
+.tag {
+  font-weight: bold;
+  padding: 0.25rem 1rem;
+  background-color: rgba(255,255,255,.2);
+  border-radius: 999px;
+  text-transform: uppercase;
 }
 
 .parallax {
@@ -134,4 +169,18 @@ a.brand-footer {
   color: white;
   text-decoration: none;
   background-color: #A9A9A9;
+}
+
+.bg-70 {
+  background-image: url("./images/image-9.jpg");
+  width: 70%;
+  min-height: 80vh;
+  right: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-position {
+  min-height: 80vh;
 }
